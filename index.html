@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>porfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0"/> <!--늘이거나 줄이는 작업을 하지 않겠다-->
+    <meta name="description" content="scroll page">
+    <link rel="stylesheet" href="./asset/css/swiper-bundle.css">
+    <link rel="stylesheet" href="./asset/css/swiper_customize.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/common.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div id="header">
+          <div class="header_wrap">
+            <h1 class="h_logo"><a href="#">Gayoung Kim</a></h1>
+            <ul class="gnb">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Skills</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <div id="mainbanner">
+            <ul class="main_logo">
+              <li><a href="#"><img src="./asset/img/github.png"></a></li>
+              <li><a href="#"><img src="./asset/img/email.png"></a></li>
+              <li><a href="#"><img src="./asset/img/telephone.png"></a></li>
+            </ul>
+            <div class="box">
+              <div class="inner">
+                <h3 class="mainb_title">안녕하세요, <br>김가영입니다.</h3>
+                <div class="mainb_subtitle">Web Publisher</div>
+                <p class="mainb_des">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. <br>Saepe velit mollitia et atque</p>
+              </div>
+              <div class="inner">
+                <img src="./asset/img/profile/img01.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <!--mainbanner-->
+          <div class="content">
+            <section id="portfolio">
+              <div class="section_title_wrap">
+                <h2 class="section_title">Portfolio</h2>
+                <p>My indtroduction</p>
+              </div>
+              <div class="section_content">
+                <div class="swiper-container mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="box">
+                        <div class="inner swiper_inner first">
+                          <h4 class="po_title">에이스 침대<span class="plot">고정형 / SCSS 사용</span></h4>
+                          <p>사용언어</p>
+                          <p>
+                            <span>#html</span>
+                            <span>#css</span>
+                            <span>#jquery</span>
+                            <span>#javascript</span>
+                          </p>
+                          <p>color chip</p>
+                          <ul class="color_chip">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                          <button type="button" name="button" class="view">view</button>
+                          <button type="button" name="button" class="view">gitHub</button>
+                        </div>
+                        <div class="inner swiper_inner">
+                          <img src="./asset/img/portfolio/ace_bed_gif.gif" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <!--첫번째작업물-->
+                    <div class="swiper-slide">
+                      <div class="box">
+                        <div class="inner swiper_inner second">
+                          <h4 class="po_title">관세청<span class="plot">반응형 / SCSS 사용</span></h4>
+                          <p>구성</p>
+                          <p>
+                            <span>메인페이지1, 서브페이지2</span>
+                          </p>
+                          <p>사용 언어</p>
+                          <p>
+                            <span>#html</span>
+                            <span>#css</span>
+                            <span>#jquery</span>
+                          </p>
+                          <ul class="color_chip">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                          <button type="button" name="button" class="view">view</button>
+                          <button type="button" name="button" class="view">gitHub</button>
+                        </div>
+                        <div class="inner swiper_inner">
+                          <img src="./asset/img/portfolio/customs.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <!--두번째작업물-->
+                    <div class="swiper-slide">
+                      <div class="box">
+                        <div class="inner swiper_inner third">
+                          <h4 class="po_title">Farm<span class="plot">반응형</span></h4>
+                          <p>구성</p>
+                          <p>
+                            <span>메인페이지1, 서브페이지2</span>
+                          </p>
+                          <p>사용 언어</p>
+                          <p>
+                            <span>#html</span>
+                            <span>#css</span>
+                            <span>#jquery</span>
+                          </p>
+                          <ul class="color_chip">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                          <button type="button" name="button" class="view">view</button>
+                          <button type="button" name="button" class="view">gitHub</button>
+                        </div>
+                        <div class="inner swiper_inner">
+                          <img src="./asset/img/portfolio/farm_mac.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </section><!--스와이퍼 구현-->
+            <section id="skills">
+              <div class="section_title_wrap">
+                <h2 class="section_title">Skills</h2>
+                <p>My indtroduction</p>
+              </div>
+              <div class="section_content">
+                <div class="row">
+                  <div class="column">
+                    <div class="inner none_type progressbar">
+                      <div class="items_wrap">
+                        <div class="items">
+                          <div class="title">HTML5</div>
+                          <div class="percent">60%</div>
+                        </div>
+                      </div>
+                      <div class="items_wrap">
+                        <div class="items">
+                          <div class="title">CSS3</div>
+                          <div class="percent">60%</div>
+                        </div>
+                      </div>
+                      <div class="items_wrap">
+                        <div class="items">
+                          <div class="title">javascript</div>
+                          <div class="percent">20%</div>
+                        </div>
+                      </div>
+                      <div class="items_wrap">
+                        <div class="items">
+                          <div class="title">SASS</div>
+                          <div class="percent">20%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="about">
+              <div class="section_title_wrap">
+                <h2 class="section_title">About Me</h2>
+                <p>My indtroduction</p>
+              </div>
+              <div class="section_content">
+                <div class="box">
+                  <div class="inner">
+                    <img src="./asset/img/profile/img01.jpg" alt="">
+                  </div>
+                  <div class="inner">
+                    <p class="introduce">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe velit mollitia et atqueLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    <div class="items">
+                      <div class="item">#열정적인</div> <!--본인소개 키워드-->
+                      <div class="item">#도전하는</div>
+                      <div class="item">#신입</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!--content-->
+        </div>
+        <!--container-->
+      </main>
+    </div>
+    <footer>
+    </footer>
+    <script type="text/javascript" src="./js/swiper-bundle.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+    </script>
+  </body>
+</html>

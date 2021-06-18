@@ -1,0 +1,348 @@
+@charset "UTF-8";
+/*initial css*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+html, body, ul, li, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #6666ff;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.box .inner {
+  padding: 40px;
+}
+
+.section_content {
+  margin-top: 70px;
+}
+
+section {
+  margin-top: 150px;
+}
+
+#header {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+#header .header_wrap {
+  padding: 20px 0px;
+  position: relative;
+}
+
+#header .header_wrap .h_logo a {
+  color: #111;
+  font-size: 21px;
+}
+
+#header .header_wrap .gnb {
+  display: flex;
+  position: absolute;
+  right: 0;
+  color: #111;
+  right: 40px;
+  top: 22px;
+}
+
+#header .header_wrap .gnb li {
+  padding: 10px 20px;
+}
+
+#header .header_wrap .gnb li a {
+  color: #111;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#mainbanner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+#mainbanner .main_logo {
+  width: 10%;
+  padding: 20px 20px 20px;
+}
+
+#mainbanner .main_logo li {
+  padding: 10px 0;
+}
+
+#mainbanner .main_logo li img {
+  width: 25px;
+  color: #6666ff;
+}
+
+#mainbanner .box {
+  width: 90%;
+  justify-content: space-evenly;
+}
+
+#mainbanner .box .inner .mainb_title {
+  color: #6666ff;
+  font-size: 41px;
+  letter-spacing: 1px;
+}
+
+#mainbanner .box .inner .mainb_subtitle {
+  color: #555;
+  font-size: 21px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+#mainbanner .box .inner .mainb_des {
+  color: #777;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.content #about .box .inner {
+  padding: 20px 40px;
+}
+
+.content #about .box .inner .introduce {
+  color: #777;
+}
+
+.content #about .box .inner .items {
+  display: flex;
+  margin-top: 20px;
+}
+
+.content #about .box .inner .items .item {
+  padding-right: 10px;
+}
+
+.content #portfolio .section_content .box .inner .po_title {
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.content #portfolio .section_content .box .inner .plot {
+  font-size: 14px;
+  color: #888;
+  margin-left: 15px;
+  font-weight: 300;
+}
+
+.content #portfolio .section_content .box .inner p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.content #portfolio .section_content .box .inner p span {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 10px;
+  color: #333;
+}
+
+.content #portfolio .section_content .box .inner .color_chip {
+  display: flex;
+  margin-top: 30px;
+}
+
+.content #portfolio .section_content .box .inner .color_chip li {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+.content #portfolio .section_content .box .inner .color_chip li:first-child {
+  background-color: #158ac0;
+}
+
+.content #portfolio .section_content .box .inner .color_chip li:nth-of-type(2) {
+  background-color: #d3d3d3;
+}
+
+.content #portfolio .section_content .box .inner .color_chip li:nth-of-type(3) {
+  background-color: #333;
+}
+
+.content #portfolio .section_content .box .inner .view {
+  border: 1px solid #d3d3d3;
+  padding: 15px 50px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.content #portfolio .section_content .box .inner img {
+  width: 550px;
+}
+
+.content #portfolio .section_content .box .second .color_chip li:first-child {
+  background: #003769;
+}
+
+.content #portfolio .section_content .box .third .color_chip li:first-child {
+  background: #274135;
+}
+
+section#myskill {
+  background: url("../img/bg/my_skill_bg.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section#myskill .row .column {
+  margin-top: -50px;
+  opacity: 1;
+}
+
+section .row .column .inner.none_type {
+  border: 0;
+  box-shadow: none;
+  background: none;
+}
+
+section .row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1410px;
+  padding: 120px 0;
+  box-sizing: border-box;
+  z-index: 500;
+}
+
+/*progress bar style*/
+.progressbar .items_wrap {
+  overflow: hidden;
+  /*넘치는 오브젝트 잡을거임*/
+  color: white;
+  margin-bottom: 15px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.progressbar .items_wrap:last-child {
+  margin: 0;
+}
+
+.progressbar .items {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 6px 10px;
+  border-radius: 0 5px 5px 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.5);
+  /*x축. y축. spread*/
+  width: 0;
+  opacity: 1;
+  transition: 1s;
+}
+
+.progressbar .items .title {
+  float: left;
+  font-weight: 700;
+  padding: 6px 0;
+}
+
+.progressbar .items .percent {
+  float: right;
+  padding: 6px 0;
+}
+
+.progressbar .items_wrap:nth-of-type(1) .items {
+  background: #ebaf17;
+}
+
+.progressbar .items_wrap:nth-of-type(2) .items {
+  background: #edd118;
+}
+
+.progressbar .items_wrap:nth-of-type(3) .items {
+  background: #dfed18;
+}
+
+.progressbar .items_wrap:nth-of-type(4) .items {
+  background: #abeb17;
+}
+
+section.active .row .column .inner.progressbar .items_wrap:nth-of-type(1) .items {
+  width: 60%;
+}
+
+section.active .row .column .inner.progressbar .items_wrap:nth-of-type(2) .items {
+  width: 60%;
+}
+
+section.active .row .column .inner.progressbar .items_wrap:nth-of-type(3) .items {
+  width: 20%;
+}
+
+section.active .row .column .inner.progressbar .items_wrap:nth-of-type(4) .items {
+  width: 20%;
+}
+
+section .row .column .inner {
+  text-align: center;
+}
+
+img {
+  width: 600px;
+}
+
+.swiper_inner {
+  text-align: left;
+}
+
+.section_title_wrap {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section_title_wrap .section_title {
+  font-size: 55px;
+  color: #111;
+  font-weight: 500;
+}
+
+.section_title_wrap p {
+  color: #777;
+}
