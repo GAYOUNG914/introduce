@@ -1,189 +1,191 @@
-.box{
+.box {
   display: flex;
   justify-content: center;
-  .inner{
+  .inner {
     padding: 40px;
   }
 }
 
-.section_content{
+.section_content {
   margin-top: 70px;
 }
 
-section{margin-top: 150px;}
+section {
+  margin-top: 150px;
+}
 
-#header{
+#header {
   max-width: $pageWidth;
   margin: 0 auto;
-  .header_wrap{
+  .header_wrap {
     padding: 20px 0px;
     position: relative;
-    .h_logo{
-      a{
+    .h_logo {
+      a {
         color: $fontBasic;
         font-size: 21px;
       }
-    }//h_logo
-    .gnb{
+    } //h_logo
+    .gnb {
       display: flex;
       position: absolute;
       right: 0;
       color: #111;
       right: 40px;
       top: 22px;
-      li{
+      li {
         padding: 10px 20px;
-        a{
+        a {
           color: $fontBasic;
           font-size: 18px;
           font-weight: 400;
         }
       }
     }
-  }//header_wrap
+  } //header_wrap
 }
 //header
 
-#mainbanner{
+#mainbanner {
   max-width: $pageWidth;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   margin-top: 150px;
-  .main_logo{
+  .main_logo {
     width: 10%;
     padding: 20px 20px 20px;
-    li{
+    li {
       padding: 10px 0;
-      img{
+      img {
         width: 25px;
         color: $fontPrimary;
       }
     }
   }
-  .box{
+  .box {
     width: 90%;
     justify-content: space-evenly;
-    .inner{
-      .mainb_title{
+    .inner {
+      .mainb_title {
         color: $fontPrimary;
         font-size: 41px;
         letter-spacing: 1px;
       }
-      .mainb_subtitle{
+      .mainb_subtitle {
         color: #555;
         font-size: 21px;
         font-weight: normal;
         margin-top: 10px;
         margin-left: 3px;
       }
-      .mainb_des{
+      .mainb_des {
         color: #777;
         font-weight: 300;
         margin-top: 10px;
       }
     }
-  }//box
+  } //box
 }
 //mainbanner
 
-.content{
+.content {
   max-width: $pageWidth;
   margin: 0 auto;
-  #about{
-    .box{
-      .inner{
+  #about {
+    .box {
+      .inner {
         padding: 20px 40px;
-        .introduce{
+        .introduce {
           color: #777;
         }
-        .items{
+        .items {
           display: flex;
           margin-top: 20px;
-          .item{
+          .item {
             padding-right: 10px;
           }
         }
-      }//inner
-    }//box
-  }//#about
-  #portfolio{
-    .section_content{
-      .box{
-        .inner{
-          .po_title{
+      } //inner
+    } //box
+  } //#about
+  #portfolio {
+    .section_content {
+      .box {
+        .inner {
+          .po_title {
             font-size: 25px;
             color: #333;
             margin-bottom: 25px;
           }
-          .plot{
+          .plot {
             font-size: 14px;
             color: #888;
             margin-left: 15px;
             font-weight: 300;
           }
-          p{
+          p {
             font-size: 17px;
             font-weight: 400;
             color: #777;
             margin-bottom: 15px;
-            span{
+            span {
               font-weight: 600;
               font-size: 18px;
               padding: 0 10px;
               color: #333;
             }
-          }//p
-          .color_chip{
+          } //p
+          .color_chip {
             display: flex;
             margin-top: 30px;
-            li{
+            li {
               width: 50px;
               height: 50px;
               border-radius: 100%;
               margin-right: 15px;
-              &:first-child{
+              &:first-child {
                 background-color: #158ac0;
               }
-              &:nth-of-type(2){
+              &:nth-of-type(2) {
                 background-color: #d3d3d3;
               }
-              &:nth-of-type(3){
+              &:nth-of-type(3) {
                 background-color: #333;
               }
             }
           }
-          .view{
+          .view {
             border: 1px solid #d3d3d3;
             padding: 15px 50px;
             background-color: #fff;
             margin-top: 30px;
             margin-right: 10px;
           }
-          img{
+          img {
             width: 550px;
           }
-        }//inner
+        } //inner
       }
     }
   }
 }
 
-.content{
-  #portfolio{
-    .section_content{
-      .box{
-        .second{
-          .color_chip{
-            li:first-child{
-              background:#003769;
+.content {
+  #portfolio {
+    .section_content {
+      .box {
+        .second {
+          .color_chip {
+            li:first-child {
+              background: #003769;
             }
           }
         }
-        .third{
-          .color_chip{
-            li:first-child{
-              background:#274135;
+        .third {
+          .color_chip {
+            li:first-child {
+              background: #274135;
             }
           }
         }
@@ -192,25 +194,24 @@ section{margin-top: 150px;}
   }
 }
 
-
-section#myskill{
-  background: url('../img/bg/my_skill_bg.jpg') no-repeat;
+section#myskill {
+  background: url("../img/bg/my_skill_bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-section#myskill .row .column{
+section#myskill .row .column {
   margin-top: -50px;
   opacity: 1;
 }
 
-section .row .column .inner.none_type{
+section .row .column .inner.none_type {
   border: 0;
   box-shadow: none;
   background: none;
 }
 
-section .row{
+section .row {
   position: relative;
   display: flex;
   align-items: center;
@@ -223,94 +224,94 @@ section .row{
 }
 
 /*progress bar style*/
-.progressbar .items_wrap{
-  overflow: hidden;/*넘치는 오브젝트 잡을거임*/
+.progressbar .items_wrap {
+  overflow: hidden; /*넘치는 오브젝트 잡을거임*/
   color: white;
   margin-bottom: 15px;
-  background: rgba(255,255,255,.3);
+  background: rgba(255, 255, 255, 0.3);
 }
 
-.progressbar .items_wrap:last-child{
+.progressbar .items_wrap:last-child {
   margin: 0;
 }
 
-.progressbar .items{
+.progressbar .items {
   overflow: hidden;
   box-sizing: border-box;
   padding: 6px 10px;
   border-radius: 0 5px 5px 0;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.5);
-  box-shadow: 2px 0px 2px rgba(0,0,0,.5); /*x축. y축. spread*/
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.5); /*x축. y축. spread*/
   width: 0;
   opacity: 1;
   transition: 1s;
 }
 
-.progressbar .items .title{
+.progressbar .items .title {
   float: left;
   font-weight: 700;
   padding: 6px 0;
 }
 
-.progressbar .items .percent{
+.progressbar .items .percent {
   float: right;
   padding: 6px 0;
 }
 
-.progressbar .items_wrap:nth-of-type(1) .items{
+.progressbar .items_wrap:nth-of-type(1) .items {
   background: #ebaf17;
 }
 
-.progressbar .items_wrap:nth-of-type(2) .items{
+.progressbar .items_wrap:nth-of-type(2) .items {
   background: #edd118;
 }
 
-.progressbar .items_wrap:nth-of-type(3) .items{
+.progressbar .items_wrap:nth-of-type(3) .items {
   background: #dfed18;
 }
 
-.progressbar .items_wrap:nth-of-type(4) .items{
+.progressbar .items_wrap:nth-of-type(4) .items {
   background: #abeb17;
 }
 
-section.active .row .column .inner.progressbar .items_wrap:nth-of-type(1) .items{
+section.active .row .column .inner.progressbar .items_wrap:nth-of-type(1) .items {
   width: 60%;
 }
 
-section.active .row .column .inner.progressbar .items_wrap:nth-of-type(2) .items{
+section.active .row .column .inner.progressbar .items_wrap:nth-of-type(2) .items {
   width: 60%;
 }
 
-section.active .row .column .inner.progressbar .items_wrap:nth-of-type(3) .items{
+section.active .row .column .inner.progressbar .items_wrap:nth-of-type(3) .items {
   width: 20%;
 }
 
-section.active .row .column .inner.progressbar .items_wrap:nth-of-type(4) .items{
+section.active .row .column .inner.progressbar .items_wrap:nth-of-type(4) .items {
   width: 20%;
 }
 
-section .row .column .inner{
+section .row .column .inner {
   text-align: center;
 }
 
-img{
+img {
   width: 600px;
 }
 
-.swiper_inner{
+.swiper_inner {
   text-align: left;
 }
 
-.section_title_wrap{
+.section_title_wrap {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  .section_title{
+  .section_title {
     font-size: 55px;
     color: $fontBasic;
     font-weight: 500;
   }
-  p{
+  p {
     color: #777;
   }
-}//section_title_wrap
+} //section_title_wrap
