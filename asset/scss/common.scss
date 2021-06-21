@@ -11,10 +11,6 @@
   margin-top: 70px;
 }
 
-section {
-  margin-top: 150px;
-}
-
 #header {
   max-width: $pageWidth;
   margin: 0 auto;
@@ -151,6 +147,8 @@ section {
     } //box
   } //#about
   #portfolio {
+    padding-top: 100px;
+    margin-bottom: 150px;
     .section_content {
       .box {
         .inner {
@@ -293,6 +291,18 @@ section {
     }
   }
 } //fifth
+
+footer {
+  width: 100%;
+  background: $fontPrimary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    padding: 50px;
+    color: #fff;
+  }
+}
 
 /* 
 section#myskill {

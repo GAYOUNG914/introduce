@@ -17,3 +17,15 @@ $(function () {
     gsap.to(".spanFast", { duration: 0.4, x: -position });
   }
 });
+
+$(function () {
+  //gnb 눌렀을 때 section 찾아가기
+  $(".gnb li a").click(function () {
+    console.log($(this.hash));
+    let thisElem = $(this.hash);
+    let offsetElem = thisElem.offset();
+    console.log(offsetElem.top);
+    $("html,body").stop();
+    $("html,body").animate({ scrollTop: offsetElem.top }, 1000);
+  });
+});
