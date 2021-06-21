@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>porfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0"/> <!--늘이거나 줄이는 작업을 하지 않겠다-->
-    <meta name="description" content="scroll page">
-    <link rel="stylesheet" href="./asset/css/swiper-bundle.css">
-    <link rel="stylesheet" href="./asset/css/swiper_customize.css">
-    <link rel="stylesheet" href="./asset/css/style.css">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <!--늘이거나 줄이는 작업을 하지 않겠다-->
+    <meta name="description" content="scroll page" />
+    <link rel="stylesheet" href="./asset/css/swiper-bundle.css" />
+    <link rel="stylesheet" href="./asset/css/swiper_customize.css" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/common.js"></script>
   </head>
@@ -19,38 +23,94 @@
             <h1 class="h_logo"><a href="#">Gayoung Kim</a></h1>
             <ul class="gnb">
               <li><a href="#">Home</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <!-- <li><a href="#">Skills</a></li>
+              <li><a href="#">About</a></li> -->
             </ul>
           </div>
         </div>
       </header>
       <main>
         <div class="container">
+          <div class="bold_line"></div>
+          <div class="bold_line bold_line2"></div>
           <div id="mainbanner">
-            <ul class="main_logo">
-              <li><a href="#"><img src="./asset/img/github.png"></a></li>
-              <li><a href="#"><img src="./asset/img/email.png"></a></li>
-              <li><a href="#"><img src="./asset/img/telephone.png"></a></li>
-            </ul>
             <div class="box">
               <div class="inner">
-                <h3 class="mainb_title">안녕하세요, <br>김가영입니다.</h3>
-                <div class="mainb_subtitle">Web Publisher</div>
-                <p class="mainb_des">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. <br>Saepe velit mollitia et atque</p>
-              </div>
-              <div class="inner">
-                <img src="./asset/img/profile/img01.jpg" alt="">
+                <div class="contents">
+                  <div class="move-image">
+                    <div class="textWrap">
+                      <div class="line">
+                        <div class="left">
+                          <div class="spanWrap">
+                            <span class="spanSlow">안녕하세요,</span>
+                          </div>
+                        </div>
+                        <div class="right">
+                          <div class="spanWrap">
+                            <span class="spanSlow">안녕하세요,</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="line">
+                        <div class="left">
+                          <div class="spanWrap">
+                            <span class="spanFast">웹퍼블리셔</span>
+                          </div>
+                        </div>
+                        <div class="right">
+                          <div class="spanWrap">
+                            <span class="spanFast">웹퍼블리셔</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="line">
+                        <div class="left">
+                          <div class="spanWrap">
+                            <span class="spanSlow">김가영</span>
+                          </div>
+                        </div>
+                        <div class="right">
+                          <div class="spanWrap">
+                            <span class="spanSlow">김가영</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="line">
+                        <div class="left">
+                          <div class="spanWrap">
+                            <span class="spanFast">입니다</span>
+                          </div>
+                        </div>
+                        <div class="right">
+                          <div class="spanWrap">
+                            <span class="spanFast">입니다</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+            <ul class="main_logo">
+              <li>
+                <a href="https://github.com/GAYOUNG914?tab=repositories"><img src="./asset/img/github.png" /></a>
+              </li>
+              <li>
+                <a href="mailto:green40702@gmail.com"><img src="./asset/img/email.png" /></a>
+              </li>
+              <li>
+                <a href="tel:01065876540"><img src="./asset/img/telephone.png" /></a>
+              </li>
+            </ul>
           </div>
           <!--mainbanner-->
           <div class="content">
             <section id="portfolio">
               <div class="section_title_wrap">
                 <h2 class="section_title">Portfolio</h2>
-                <p>My indtroduction</p>
+                <p>My works</p>
               </div>
               <div class="section_content">
                 <div class="swiper-container mySwiper">
@@ -58,92 +118,156 @@
                     <div class="swiper-slide">
                       <div class="box">
                         <div class="inner swiper_inner first">
-                          <h4 class="po_title">에이스 침대<span class="plot">고정형 / SCSS 사용</span></h4>
-                          <p>사용언어</p>
+                          <h4 class="po_title">테라<span class="plot">고정형</span></h4>
+                          <p>구성</p>
                           <p>
-                            <span>#html</span>
-                            <span>#css</span>
-                            <span>#jquery</span>
-                            <span>#javascript</span>
+                            <span>원 페이지</span>
                           </p>
-                          <p>color chip</p>
-                          <ul class="color_chip">
+                          <p>사용 스킬</p>
+                          <p>
+                            <span>#HTML</span>
+                            <span>#CSS</span>
+                            <span>#Javascript</span>
+                            <span>#Jquery</span>
+                          </p>
+                          <ul class="color_chip first_co">
                             <li></li>
                             <li></li>
                             <li></li>
                           </ul>
-                          <button type="button" name="button" class="view">view</button>
-                          <button type="button" name="button" class="view">gitHub</button>
+                          <button type="button" name="button" class="view"><a href="https://gayoung914.github.io/Tera_game/">view</a></button>
+                          <button type="button" name="button" class="view"><a href="https://github.com/GAYOUNG914/Tera_game">gitHub</a></button>
                         </div>
                         <div class="inner swiper_inner">
-                          <img src="./asset/img/portfolio/ace_bed_gif.gif" alt="">
+                          <img src="./asset/img/portfolio/tera_mac.png" alt="" />
                         </div>
                       </div>
                     </div>
-                    <!--첫번째작업물-->
+                    <!--첫번째작업물 게임랜딩-->
                     <div class="swiper-slide">
                       <div class="box">
                         <div class="inner swiper_inner second">
-                          <h4 class="po_title">관세청<span class="plot">반응형 / SCSS 사용</span></h4>
+                          <h4 class="po_title">관세청<span class="plot">고정형</span></h4>
                           <p>구성</p>
                           <p>
                             <span>메인페이지1, 서브페이지2</span>
                           </p>
-                          <p>사용 언어</p>
+                          <p>사용 스킬</p>
                           <p>
-                            <span>#html</span>
-                            <span>#css</span>
-                            <span>#jquery</span>
+                            <span>#HTML</span>
+                            <span>#CSS</span>
+                            <span>#SCSS</span>
+                            <span>#Jquery</span>
                           </p>
-                          <ul class="color_chip">
+                          <ul class="color_chip second_co">
                             <li></li>
                             <li></li>
                             <li></li>
                           </ul>
-                          <button type="button" name="button" class="view">view</button>
-                          <button type="button" name="button" class="view">gitHub</button>
+                          <button type="button" name="button" class="view"><a href="https://gayoung914.github.io/">view</a></button>
+                          <button type="button" name="button" class="view"><a href="https://github.com/GAYOUNG914/GAYOUNG914.github.io">gitHub</a></button>
                         </div>
                         <div class="inner swiper_inner">
-                          <img src="./asset/img/portfolio/customs.png" alt="">
+                          <img src="./asset/img/portfolio/customs.png" alt="" />
                         </div>
                       </div>
                     </div>
-                    <!--두번째작업물-->
+                    <!--두번째작업물 관세청-->
                     <div class="swiper-slide">
                       <div class="box">
                         <div class="inner swiper_inner third">
                           <h4 class="po_title">Farm<span class="plot">반응형</span></h4>
                           <p>구성</p>
                           <p>
-                            <span>메인페이지1, 서브페이지2</span>
+                            <span>메인페이지1, 서브페이지5</span>
                           </p>
-                          <p>사용 언어</p>
+                          <p>사용 스킬</p>
                           <p>
-                            <span>#html</span>
-                            <span>#css</span>
-                            <span>#jquery</span>
+                            <span>#HTML</span>
+                            <span>#CSS</span>
+                            <span>#Jquery</span>
                           </p>
-                          <ul class="color_chip">
+                          <ul class="color_chip third_co">
                             <li></li>
                             <li></li>
                             <li></li>
                           </ul>
-                          <button type="button" name="button" class="view">view</button>
-                          <button type="button" name="button" class="view">gitHub</button>
+                          <button type="button" name="button" class="view"><a href="https://gayoung914.github.io/FARM/">view</a></button>
+                          <button type="button" name="button" class="view"><a href="https://github.com/GAYOUNG914/FARM">gitHub</a></button>
                         </div>
                         <div class="inner swiper_inner">
-                          <img src="./asset/img/portfolio/farm_mac.png" alt="">
+                          <img src="./asset/img/portfolio/farm_mac.png" alt="" />
                         </div>
                       </div>
                     </div>
+                    <!--세번째작업물 팜-->
+                    <div class="swiper-slide">
+                      <div class="box">
+                        <div class="inner swiper_inner fourth">
+                          <h4 class="po_title">제주용암수<span class="plot">반응형</span></h4>
+                          <p>구성</p>
+                          <p>
+                            <span>원 페이지</span>
+                          </p>
+                          <p>사용 스킬</p>
+                          <p>
+                            <span>#HTML</span>
+                            <span>#CSS</span>
+                            <span>#Jquery</span>
+                            <span>#Bootstrap</span>
+                          </p>
+                          <ul class="color_chip fourth_co">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                          <button type="button" name="button" class="view"><a href="https://gayoung914.github.io/bootstrap_water/">view</a></button>
+                          <button type="button" name="button" class="view"><a href="https://github.com/GAYOUNG914/bootstrap_water">gitHub</a></button>
+                        </div>
+                        <div class="inner swiper_inner">
+                          <img src="./asset/img/portfolio/water_mac.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <!--네번쨰작업물 부트스트랩-->
+                    <div class="swiper-slide">
+                      <div class="box">
+                        <div class="inner swiper_inner fifth">
+                          <h4 class="po_title">에이스침대<span class="plot">고정형</span></h4>
+                          <p>구성</p>
+                          <p>
+                            <span>메인페이지1, 서브페이지6</span>
+                          </p>
+                          <p>사용 스킬</p>
+                          <p>
+                            <span>#HTML</span>
+                            <span>#CSS</span>
+                            <span>#SCSS</span>
+                            <span>#Jquery</span>
+                          </p>
+                          <ul class="color_chip fifth_co">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                          <button type="button" name="button" class="view"><a href="https://gayoung914.github.io/sass_site_ace_bed/">view</a></button>
+                          <button type="button" name="button" class="view"><a href="https://github.com/GAYOUNG914/sass_site_ace_bed">gitHub</a></button>
+                        </div>
+                        <div class="inner swiper_inner">
+                          <img src="./asset/img/portfolio/ace_mac.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <!--다섯번째작업물 에이스-->
                   </div>
                   <div class="swiper-button-next"></div>
                   <div class="swiper-button-prev"></div>
                   <div class="swiper-pagination"></div>
                 </div>
               </div>
-            </section><!--스와이퍼 구현-->
-            <section id="skills">
+            </section>
+            <!--스와이퍼 구현-->
+            <!-- <section id="skills">
               <div class="section_title_wrap">
                 <h2 class="section_title">Skills</h2>
                 <p>My indtroduction</p>
@@ -189,27 +313,32 @@
               <div class="section_content">
                 <div class="box">
                   <div class="inner">
-                    <img src="./asset/img/profile/img01.jpg" alt="">
+                    <img src="./asset/img/profile/img01.jpg" alt="" />
                   </div>
                   <div class="inner">
-                    <p class="introduce">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe velit mollitia et atqueLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    <p class="introduce">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe velit mollitia et atqueLorem ipsum
+                      dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                      magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                      do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    </p>
                     <div class="items">
-                      <div class="item">#열정적인</div> <!--본인소개 키워드-->
-                      <div class="item">#도전하는</div>
+                      <div class="item">#열정적인</div>
+                      <!--본인소개 키워드-->
+                      <!-- <div class="item">#도전하는</div>
                       <div class="item">#신입</div>
                     </div>
                   </div>
                 </div>
               </div>
             </section>
-          </div>
+          </div> -->
           <!--content-->
-        </div>
+        <!-- </div> -->
         <!--container-->
-      </main>
-    </div>
-    <footer>
-    </footer>
+      <!-- </main>
+    </div> -->
+    <footer></footer>
     <script type="text/javascript" src="./js/swiper-bundle.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
@@ -223,5 +352,6 @@
         },
       });
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
   </body>
 </html>
