@@ -30,6 +30,10 @@
   font-size: 21px;
 }
 
+#header .header_wrap .h_logo a img {
+  width: 30px;
+}
+
 #header .header_wrap .gnb {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,13 +60,25 @@
 }
 
 .container {
-  min-width: 1600px;
-  height: 100%;
+  overflow: hidden;
+  min-width: 1400px;
+  max-width: 2560px;
+  margin: 0 auto;
 }
 
-.container .bold_line {
+.container #mainbanner {
+  min-width: 1400px;
+  height: 809px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.container #mainbanner .bold_line {
   position: absolute;
-  top: 45.5%;
+  top: 342px;
   left: 0;
   width: 50%;
   height: 100px;
@@ -71,21 +87,13 @@
           transform: skew(0, -15deg);
 }
 
-.container .bold_line2 {
-  top: 58.1%;
+.container #mainbanner .bold_line2 {
+  top: 458px;
   right: 0;
   left: auto;
   background-color: #6666ff;
   -webkit-transform: skew(0, 15deg);
           transform: skew(0, 15deg);
-}
-
-.container #mainbanner {
-  max-width: 1400px;
-  margin: 0 auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .container #mainbanner .main_logo {
