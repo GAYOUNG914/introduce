@@ -29,3 +29,13 @@ $(function () {
     $("html,body").animate({ scrollTop: offsetElem.top }, 1000);
   });
 });
+
+//on 클릭 제이쿼리
+$(function () {
+  $(".photoshop_works img").click(function () {
+    $(this).next(".if_click").addClass("on");
+  });
+  $(".if_click").click(function () {
+    $(this).removeClass("on");
+  });
+});
