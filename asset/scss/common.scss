@@ -203,7 +203,7 @@
       }
     }
   }
-}
+} //content
 
 //color chips
 .tera {
@@ -297,6 +297,22 @@
     }
   }
 } //bimber
+
+.introduce {
+  .introduce_co {
+    li {
+      &:first-child {
+        background: #6666ff;
+      }
+      &:nth-of-type(2) {
+        background: #ffff66;
+      }
+      &:nth-of-type(3) {
+        background: #333;
+      }
+    }
+  }
+} //introduce
 
 //swiper deco
 .swiper_inner {

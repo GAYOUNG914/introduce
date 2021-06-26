@@ -368,6 +368,18 @@ img {
   background: #111;
 }
 
+.introduce .introduce_co li:first-child {
+  background: #6666ff;
+}
+
+.introduce .introduce_co li:nth-of-type(2) {
+  background: #ffff66;
+}
+
+.introduce .introduce_co li:nth-of-type(3) {
+  background: #333;
+}
+
 .swiper_inner {
   text-align: left;
 }
