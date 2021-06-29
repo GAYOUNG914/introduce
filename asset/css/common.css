@@ -229,7 +229,11 @@
   margin-right: 15px;
 }
 
-.content #portfolio .section_content .box .inner .view {
+.content #portfolio .section_content .box .inner .view_wrap{
+  margin-top: 50px;
+}
+
+.content #portfolio .section_content .box .inner .view_wrap .view {
   border: 1px solid #d3d3d3;
   padding: 15px 50px;
   background-color: #fff;
@@ -238,6 +242,10 @@
   font-weight: 400;
   font-size: 13px;
   display: inline-block;
+}
+
+.content #portfolio .section_content .box .inner .view_wrap .view:last-child{
+  margin-left: 5%;
 }
 
 .content #portfolio .section_content .box .inner img {
