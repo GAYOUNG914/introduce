@@ -235,6 +235,9 @@
   background-color: #fff;
   margin-top: 30px;
   margin-right: 10px;
+  font-weight: 400;
+  font-size: 13px;
+  display: inline-block;
 }
 
 .content #portfolio .section_content .box .inner img {
