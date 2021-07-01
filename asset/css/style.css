@@ -275,6 +275,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .content #portfolio .section_content .box .inner .color_chip li {
@@ -286,10 +287,10 @@ img {
 
 .content #portfolio .section_content .box .inner .view {
   border: 1px solid #d3d3d3;
-  padding: 15px 50px;
+  padding: 10px 25px;
   background-color: #fff;
-  margin-top: 30px;
   margin-right: 10px;
+  font-size: 13px;
 }
 
 .content #portfolio .section_content .box .inner img {
