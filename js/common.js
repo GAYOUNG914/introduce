@@ -34,8 +34,10 @@ $(function () {
 $(function () {
   $(".photoshop_works img").click(function () {
     $(this).next(".if_click").addClass("on");
+    $('.body').addClass('stop-scrolling');
   });
   $(".if_click").click(function () {
     $(this).removeClass("on");
+    $('.body').removeClass('stop-scrolling');
   });
 });

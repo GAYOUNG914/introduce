@@ -1,0 +1,178 @@
+.content #portfolio{
+    padding-bottom: 130px; 
+}
+.mySwiper2{
+    margin-bottom: 70px;
+}
+.mySwiper{
+    .swiper-slide{
+        position: relative;
+        border-radius: 5px;
+        // border: 1px solid red;
+        overflow: hidden;
+        &:before{
+            content: 'Jquery';
+            color: #fff;
+            font-size: 2.5vw;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+            opacity: 0;
+            transition: .3s;
+        }
+        &:after{
+            content: '';
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,.8);
+            opacity: 0;
+            transition: .3s;
+        }
+        &:hover{
+            cursor: pointer;
+            &:after{
+                opacity: 1;
+            }
+            &:before{
+                opacity: 1;
+            }
+        }
+        &.hyun{
+            &:before{
+                content: 'Project';
+            }
+        }
+        &.ar{
+            &:before{
+                content: 'Three.js';
+            }
+        }
+        &.bim{
+            &:before{
+                content: 'Vue.js';
+            }
+        }
+        &.yong{
+            &:before{
+                content: 'Bootstrap';
+            }
+        }
+        &.te{
+            &:before{
+                content: 'Javascript';
+            }
+        }
+    }
+}
+.content #portfolio .section_content .box .inner .po_title{
+    color: #333 !important;
+}
+
+.hyundai{
+    .color_chip{
+        li{
+            &:first-child{
+                background: #02263e;
+            }
+            &:nth-child(2){
+                background: #1272cf;
+            }
+            &:last-child{
+                background: #fd8200;
+            }
+        }
+    }
+}
+.moongory{
+    .color_chip{
+        li{
+            &:first-child{
+                background: #00b076;
+            }
+            &:nth-child(2){
+                background: #ff5442;
+            }
+            &:last-child{
+                background: #1c1814;
+            }
+        }
+    }
+}
+.personalPJ{
+    .color_chip{
+        li{
+            &:first-child{
+                background: #f76e09;
+            }
+            &:nth-child(2){
+                background: #ed9cad;
+            }
+            &:last-child{
+                background: #8abb02b9;
+            }
+        }
+    }
+}
+
+.arcane{
+    .color_chip{
+        li{
+            &:first-child{
+                background: #000;
+            }
+            // &:nth-child(2){
+            //     background: #ed9cad;
+            // }
+            // &:last-child{
+            //     background: #8abb02b9;
+            // }
+        }
+    }
+}
+
+.fullPage{
+    .color_chip{
+        li{
+            &:first-child{
+                background: salmon;
+            }
+            &:nth-child(2){
+                background: paleturquoise;;
+            }
+            &:last-child{
+                background: plum;
+            }
+        }
+    }
+}
+
+.korfin{
+    .color_chip{
+        li{
+            &:first-child{
+                background: #154eab;
+            }
+            &:nth-child(2){
+                background: #000;
+            }
+            &:last-child{
+                background: #111;
+            }
+        }
+    }
+}
+
+#portfolio_photoshop .wrap .row .inner{
+    justify-items: inherit;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+  }

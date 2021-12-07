@@ -1,0 +1,151 @@
+.content #portfolio {
+  padding-bottom: 130px;
+}
+
+.mySwiper2 {
+  margin-bottom: 70px;
+}
+
+.mySwiper .swiper-slide {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.mySwiper .swiper-slide:before {
+  content: 'Jquery';
+  color: #fff;
+  font-size: 2.5vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 10;
+  opacity: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.mySwiper .swiper-slide:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.mySwiper .swiper-slide:hover {
+  cursor: pointer;
+}
+
+.mySwiper .swiper-slide:hover:after {
+  opacity: 1;
+}
+
+.mySwiper .swiper-slide:hover:before {
+  opacity: 1;
+}
+
+.mySwiper .swiper-slide.hyun:before {
+  content: 'Project';
+}
+
+.mySwiper .swiper-slide.ar:before {
+  content: 'Three.js';
+}
+
+.mySwiper .swiper-slide.bim:before {
+  content: 'Vue.js';
+}
+
+.mySwiper .swiper-slide.yong:before {
+  content: 'Bootstrap';
+}
+
+.mySwiper .swiper-slide.te:before {
+  content: 'Javascript';
+}
+
+.content #portfolio .section_content .box .inner .po_title {
+  color: #333 !important;
+}
+
+.hyundai .color_chip li:first-child {
+  background: #02263e;
+}
+
+.hyundai .color_chip li:nth-child(2) {
+  background: #1272cf;
+}
+
+.hyundai .color_chip li:last-child {
+  background: #fd8200;
+}
+
+.moongory .color_chip li:first-child {
+  background: #00b076;
+}
+
+.moongory .color_chip li:nth-child(2) {
+  background: #ff5442;
+}
+
+.moongory .color_chip li:last-child {
+  background: #1c1814;
+}
+
+.personalPJ .color_chip li:first-child {
+  background: #f76e09;
+}
+
+.personalPJ .color_chip li:nth-child(2) {
+  background: #ed9cad;
+}
+
+.personalPJ .color_chip li:last-child {
+  background: #8abb02b9;
+}
+
+.arcane .color_chip li:first-child {
+  background: #000;
+}
+
+.fullPage .color_chip li:first-child {
+  background: salmon;
+}
+
+.fullPage .color_chip li:nth-child(2) {
+  background: paleturquoise;
+}
+
+.fullPage .color_chip li:last-child {
+  background: plum;
+}
+
+.korfin .color_chip li:first-child {
+  background: #154eab;
+}
+
+.korfin .color_chip li:nth-child(2) {
+  background: #000;
+}
+
+.korfin .color_chip li:last-child {
+  background: #111;
+}
+
+#portfolio_photoshop .wrap .row .inner {
+  justify-items: inherit;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
