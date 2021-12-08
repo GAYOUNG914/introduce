@@ -117,6 +117,14 @@
   background: #000;
 }
 
+.arcane .color_chip li:nth-child(2) {
+    background: #2fe7e7;
+  }
+  
+.arcane .color_chip li:last-child {
+    background: #f22900;
+  }
+
 .fullPage .color_chip li:first-child {
   background: salmon;
 }
